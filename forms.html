@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
     <link rel="icon" href="./html5.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
@@ -145,13 +146,13 @@
         <label for="Choose School"> Choose School:</label>
 
         <select name="Choose school" id="Choose school">
-          <option value="disabled selected">Select School</option>
           <option>School of Data</option>
           <option>School of Engineering</option>
           <option>School of Product</option>
         </select>
 
         <br /><br />
+        <option value="disabled selected">Select School</option>
         <label for="choose course of study">Choose course of Study:</label>
         <input
           type="text"
@@ -193,7 +194,6 @@
           id="password"
           placeholder="Enter password"
           required
-          style="margin-right: 10px"
         />
 
         <br />
@@ -202,7 +202,8 @@
         <a href="/term.html">Terms of Use</a> and acknowledge that I have read
         the <a href="/privacy.html"> Privacy Policy</a>. <br />
         <br />
-        <button>Proceed</button> <button>Reset</button> <br />
+        <button class="button">Proceed</button>
+        <button class="chris">Reset</button> <br />
         Already have an account? <a href="sign.html">Sign in</a>
         <br />
         <ul>
